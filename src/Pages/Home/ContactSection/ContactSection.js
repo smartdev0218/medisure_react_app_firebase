@@ -12,10 +12,10 @@ const ContactSection = () => {
             <h2 className="fw-bolder blue-color">Medisure</h2>
             <p className="fw-bold text-secondary">MediSure ensures the best health care as well as clinical service with outstanding personal service. We ensures the best health care as well as clinical service with outstanding personal service.</p>
             <p className="mt-4">
-              <i className="blue-color fas fa-location-arrow"></i> Tupac Amaru 200 - Lima
+              <i className="blue-color fas fa-location-arrow"></i>
             </p>
             <p>
-              <i className="blue-color fas fa-phone"></i> +51 0123456789
+              <i className="blue-color fas fa-phone"></i>
             </p>
             <div className="mb-3 fs-4">
               <i className="fab fa-facebook-square me-4"></i>

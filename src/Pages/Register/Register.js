@@ -47,18 +47,18 @@ const Register = () => {
           </button>
         </form>
         <h6 className="text-center mt-3">Or Register with</h6>
-        <div className="row row-cols-2 g-3 mt-2">
+        {/* <div className="row row-cols-2 g-3 mt-2"> */}
           <div className="col text-center">
             <button onClick={signInWithGoogle} type="button" className="btn btn-primary">
               <i className="fab fa-google text-white"></i>
             </button>
           </div>
-          <div className="col text-center">
+          {/* <div className="col text-center">
             <button onClick={signInWithGithub} type="button" className="btn btn-primary">
               <i className="fab fa-github text-white"></i>
             </button>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
 
         <div className="mt-4">
           New user?{" "}
