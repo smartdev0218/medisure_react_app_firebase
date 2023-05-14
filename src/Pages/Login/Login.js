@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 
 const Login = () => {
-  const { signInWithGoogle, error, success, processLogin, signInWithGithub } = useAuth();
+  // const { signInWithGoogle, error, success, processLogin, signInWithGithub } = useAuth();
+  const { signInWithGoogle, error, success, processLogin } = useAuth();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 

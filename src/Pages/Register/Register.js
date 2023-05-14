@@ -8,7 +8,9 @@ const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const { createNewUser, signInWithGoogle, error, success, signInWithGithub } = useAuth();
+  // const { createNewUser, signInWithGoogle, error, success, signInWithGithub } = useAuth();
+  const { createNewUser, signInWithGoogle, error, success } = useAuth();
+  
   return (
     <div className="container my-5 d-flex justify-content-center">
       <div className="p-5 shadow-lg rounded-3">
